@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://unpkg.com/vue@next"></script>
+
+        <style>
+
+            .flex_column
+            {
+                display: flex;
+                flex-direction: row;
+            }
+
+            .group:before
+            {
+                /* content: "グループ名"; */
+                /* background-color: aquamarine; */
+                /* margin-left: 16px; */
+                /* margin-right: 16px; */
+            }
+
+            .group
+            {
+                /* margin-left: 16px; */
+                /* margin-right: 16px; */
+            }
+
+            .case
+            {
+                /* padding: 6px; */
+                /* margin: 6px ; */
+                margin-left: 16px;
+                margin-right: 16px;
+
+                /* margin-bottom: 128px; */
+                text-align: center;
+            }
+
+            .case:hover
+            {
+                background-color: red;
+            }
+
+            .arrow_box
+            {
+                height: 150px;
+            }
+
+
+            .rect
+            {
+                padding: 16px;
+                border: 1px solid black;
+                text-align: center;
+                display: inline-block;
+                /* white-space: nowrap; */
+                width: 300px;
+            }
+
+            .guide
+            {
+                border: 1px solid gray;
+            }
+
+            svg
+            {
+                transform:translate(0,0)
+            }
+
+            line
+            {
+                transform:translate(0,0)
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <div id="app"></div>
+
+        <script src="./js/components/flowPartID.js"></script>
+
+        <script src="./js/components/flowPart.js"></script>
+        <script src="./js/components/flowMap.js"></script>
+
+        <script src="./js/app.js"></script>
+        <script src="./js/main.js"></script>
+
+    </body>
+</html>
